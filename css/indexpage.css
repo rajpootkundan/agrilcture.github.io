@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding-top: 0px;
+    padding-left: 1px; 
+    padding-right: 1px; 
+}
+#topfont1{
+    font-size: 150%;
+    text-align: center
+}
+#topfont2{
+    font-size: 90%;
+    text-align: center
+}
+.navbar{
+    text-transform:initial;
+    font-weight: bolder;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color:white;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:rgb(20, 250, 50);
+}
+.dropdown-menu{
+    margin: 0%;
+    padding: 0%;
+}
+.dropdown-menu .dropdown-item{
+    background: black;
+    opacity: .8;
+    color:white;
+    padding: 6px;
+}
+.dropdown-menu .dropdown-item:hover{
+    background: orange;
+    color:rgb(20, 250, 50);
+    color: black;
+}
+.carousel-item{
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+}
+.cs1{
+    height: 32vh;
+}
+.imggal{
+    background-size: cover;
+    width: 100%; 
+    box-shadow: var(--center-boxshadow)cornflowerblue;
+}
+.centerdiv{
+	text-align: center;
+}
+.btnicon a{
+    text-decoration:none;
+    color:greenyellow;
+
+}
+.btnicon button{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: left;
+    border-radius: 35px;
+    width:90%;
+    margin:10px;
+    padding:10px;
+   
+    
+}
+.btnicon i{
+    border:1px solid red;
+    height:40px;
+    width:40px;
+    line-height: 25px;
+    padding:5px;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+}
